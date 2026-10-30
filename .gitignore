@@ -1,0 +1,24 @@
+# 环境与密钥 —— 绝对不能提交
+.env
+*.env
+*.pem
+*.key
+id_rsa*
+
+# 日志
+*.log
+logs/
+
+# Java
+target/
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
